@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>HIGH CAR-SIGN UP</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <a href="/" class="navbar__logo">HIGH CAR</a>
+      <div class="navbar__bars"><i class="fas fa-bars"></i></div>
+      <div class="wrap">
+        <div class="search">
+          <form action="/" method="GET">
+           <input type="text" class="searchTerm" name="keyword" placeholder="kata kunci">
+           <button type="submit" class="searchButton"><i class="fa fa-search"></i></button>
+          </form>
+
+        </div>
+     </div>
+      <div class="navbar__menu">
+        <a href="/" class="navbar__menu--links">Beranda</a>
+        <a href="/beli" class="navbar__menu--links">Beli</a>
+        <a href="/kontak" class="navbar__menu--links">Kontak</a>
+        <a href="/login" class="navbar__menu--links">Log In</a>
+        <a href="/daftar" class="navbar__menu--links" id="button">Sign Up</a>
+      </div>
+    </nav>
+
+    <!-- Tabel form -->
+    <div class="body-form">
+      <div class="container">
+        <div class="title">Sign Up</div>
+        <form action="/daftar" method="POST">
+          <div class="user-details">
+            <!-- Full Name form -->
+            <div class="input-box">
+              <span class="details">Full Name</span>
+              <input type="text" name="fullname" placeholder="Enter your name" required>
+            </div>
+            <!-- Username form -->
+            <div class="input-box">
+              <span class="details">Username</span>
+              <input type="text" name="username" placeholder="Enter your username" required>
+            </div>
+            <!-- Email form -->
+            <div class="input-box">
+              <span class="details">Email</span>
+              <input type="text" name="email" placeholder="Enter your email" required>
+            </div>
+            <!-- Phone Number form -->
+            <div class="input-box">
+              <span class="details">Phone Number</span>
+              <input type="text" name="phone" placeholder="Enter your number" required>
+            </div>
+            <!-- Password form -->
+            <div class="input-box">
+              <span class="details">Password</span>
+              <input type="password" name="password" placeholder="Enter your password" required>
+            </div>
+            <!-- Confirm Password form -->
+            <div class="input-box">
+              <span class="details">Confirm Password</span>
+              <input type="password" placeholder="Confirm your password" required>
+            </div>
+          </div>
+          <div class="gender-details">
+            <input type="radio" name="gender" id="dot-1">
+            <input type="radio" name="gender" id="dot-2">
+            <input type="radio" name="gender" id="dot-3">
+            <span class="gender-title"></span>
+          </div>
+          <div class="button">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div id="contact">
+      <div class="wrapper">
+          <div class="footer">
+              <div class="footer-section">
+                  <h3>About</h3>
+                  <p>Kami hanya mejual mobil berkelas!</p>
+              </div>
+              <div class="footer-section">
+                  <h3>Contact</h3>
+                  <p>Jl. Ikan Banyar Banyuwangi</p>
+                  <p>Kode Pos: 44200</p>
+              </div>
+              <div class="footer-section">
+                  <h3>Social</h3>
+                  <p>
+                    <b>Email: </b>highcar@gmail.com
+                    <b>Phone: </b>+62 395 761 742
+                    <b>Facebook: </b>HIGH CAR
+                    <b>Twitter: </b>@highcar
+                  </p>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div id="copyright">
+      <div class="wrapper">
+          &copy; 2022. <b>HIGH CAR</b> All Rights Reserved.
+      </div>
+  </div>
+
+  </body>
+</html>

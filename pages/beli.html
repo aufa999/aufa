@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>HIGH CAR-BELI</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <a href="/" class="navbar__logo">HIGH CAR</a>
+      <div class="navbar__bars"><i class="fas fa-bars"></i></div>
+      <div class="wrap">
+        <div class="search">
+          <form action="/" method="GET">
+           <input type="text" class="searchTerm" name="keyword" placeholder="kata kunci">
+           <button type="submit" class="searchButton"><i class="fa fa-search"></i></button>
+          </form>
+
+        </div>
+     </div>
+      <div class="navbar__menu">
+        <a href="/" class="navbar__menu--links">Beranda</a>
+        <a href="/beli" class="navbar__menu--links">Beli</a>
+        <a href="/kontak" class="navbar__menu--links">Kontak</a>
+        <a href="/login" class="navbar__menu--links">Log In</a>
+        <a href="/daftar" class="navbar__menu--links" id="button">Sign Up</a>
+      </div>
+    </nav>
+
+     <!-- Tabel form -->
+     <div class="body-form2">
+        <div class="hero__container--right">
+            <img
+              src="https://www.freeiconspng.com/uploads/search-icon-png-18.png"
+              width="70%"
+            />
+          </div>
+        <div class="container2">
+          <div class="title">Search auto</div>
+          <form action="#">
+            <div class="user-details">
+              <!-- Merk form -->
+              <div class="input-box">
+                <span class="details">Merk</span>
+                <input type="text" placeholder="Merk" required>
+              </div>
+              <!-- Model form -->
+              <div class="input-box">
+                <span class="details">Model</span>
+                <input type="text" placeholder="Model" required>
+              </div>
+              <!-- Tahun form -->
+              <div class="input-box">
+                <span class="details">Tahun</span>
+                <input type="text" placeholder="Tahun" required>
+              </div>
+              <!-- Harga form -->
+              <div class="input-box">
+                <span class="details">Harga</span>
+                <input type="text" placeholder="Harga" required>
+              </div>
+              <!-- Mileage form -->
+              <div class="input-box">
+                  <span class="details">Mileage</span>
+                  <input type="text" placeholder="Mileage" required>
+                </div>
+            </div>
+            <!-- Submit form -->
+            <div class="button">
+              <input type="submit" value="Search">
+            </div>
+          </form>
+        </div>
+      </div>
+
+    <!-- Latest car -->
+    <div class="car">
+        <!-- Mobil 1 -->
+        <div class="car__container">
+          <div class="car__image">
+            <img src="https://pngimg.com/uploads/acura/acura_PNG129.png">
+          </div>
+      
+          <div class="info">
+            <h3 class="title">Acura SUV</h3>
+            <div class="subInfo">
+              <div class="price"> $1000/- <span>$1400/-</span></div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+              </div>
+            </div>
+      
+            <div class="overlay">
+              <a href="#" style="--i:1;" class="fas fa-shopping-cart"></a>
+              <a href="#" style="--i:2;" class="fas fa-heart"></a>
+              <a href="#" style="--i:3;" class="fas fa-search"></a>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Mobil 2 -->
+        <div class="car__container">
+          <div class="car__image">
+            <img src="https://pngimg.com/uploads/mustang/mustang_PNG66.png">
+          </div>
+      
+          <div class="info">
+            <h3 class="title">Ford Mustang</h3>
+            <div class="subInfo">
+              <div class="price"> $1000/- <span>$1400/-</span></div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+              </div>
+            </div>
+      
+            <div class="overlay">
+              <a href="#" style="--i:1;" class="fas fa-shopping-cart"></a>
+              <a href="#" style="--i:2;" class="fas fa-heart"></a>
+              <a href="#" style="--i:3;" class="fas fa-search"></a>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Mobil 3 -->
+        <div class="car__container">
+          <div class="car__image">
+            <img src="https://pngimg.com/uploads/dodge/dodge_PNG117.png">
+          </div>
+      
+          <div class="info">
+            <h3 class="title">Dodge charger</h3>
+            <div class="subInfo">
+              <div class="price"> $1000/- <span>$1400/-</span></div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+              </div>
+            </div>
+      
+            <div class="overlay">
+              <a href="#" style="--i:1;" class="fas fa-shopping-cart"></a>
+              <a href="#" style="--i:2;" class="fas fa-heart"></a>
+              <a href="#" style="--i:3;" class="fas fa-search"></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mobil 4 -->
+        <div class="car__container">
+            <div class="car__image">
+              <img src="https://pngimg.com/uploads/rolls_royce/rolls_royce_PNG55.png">
+            </div>
+        
+            <div class="info">
+              <h3 class="title">Rolls Royce</h3>
+              <div class="subInfo">
+                <div class="price"> $1000/- <span>$1400/-</span></div>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half"></i>
+                </div>
+              </div>
+        
+              <div class="overlay">
+                <a href="#" style="--i:1;" class="fas fa-shopping-cart"></a>
+                <a href="#" style="--i:2;" class="fas fa-heart"></a>
+                <a href="#" style="--i:3;" class="fas fa-search"></a>
+              </div>
+            </div>
+          </div>
+
+          
+      </div>
+
+    <!-- Footer -->
+    <div id="contact">
+      <div class="wrapper">
+          <div class="footer">
+              <div class="footer-section">
+                  <h3>About</h3>
+                  <p>Kami hanya mejual mobil berkelas!</p>
+              </div>
+              <div class="footer-section">
+                  <h3>Contact</h3>
+                  <p>Jl. Ikan Banyar Banyuwangi</p>
+                  <p>Kode Pos: 44200</p>
+              </div>
+              <div class="footer-section">
+                  <h3>Social</h3>
+                  <p>
+                    <b>Email: </b>highcar@gmail.com
+                    <b>Phone: </b>+62 395 761 742
+                    <b>Facebook: </b>HIGH CAR
+                    <b>Twitter: </b>@highcar
+                  </p>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div id="copyright">
+      <div class="wrapper">
+          &copy; 2022. <b>HIGH CAR</b> All Rights Reserved.
+      </div>
+  </div>
+
+  </body>
+</html>
